@@ -73,7 +73,7 @@ SaveFile *OpenSaveFile(const char *fileName){
 }
 
 void WriteChangesToFile(SaveFile *save){
-	printf("Writting changes to file.. ");
+	printf("Writing changes to file.. ");
 
 	//Go to start and write everything
 	fseek(fp, 0, SEEK_SET);
